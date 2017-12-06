@@ -95,6 +95,8 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/hwservicemanager" />
+  <remove-project name="platform/system/extras" />
 
   <!-- Framework repos -->
   <remove-project name="platform/frameworks/native" />
