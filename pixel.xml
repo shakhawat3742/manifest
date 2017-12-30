@@ -55,6 +55,8 @@
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pixel" />
   <project path="external/exfat" name="external_exfat" remote="pixel" />
   <project path="external/ntfs-3g" name="external_ntfs-3g" remote="pixel" />
+  <project path="external/libnfnetlink" name="external_libnfnetlink" remote="pixel" />
+  <project path="external/libnetfilter_conntrack" name="external_libnetfilter_conntrack" remote="pixel" />
 
   <!-- system -->
   <project path="system/vold" name="system_vold" remote="pixel" />
