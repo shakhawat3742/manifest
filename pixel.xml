@@ -20,6 +20,7 @@
           fetch="https://gitlab.com/PixelExperience/" />
 
   <!-- general -->
+  <project path="crowdin" name="crowdin" remote="pixel" />
   <project path="build/make" name="build" remote="pixel" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
