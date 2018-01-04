@@ -14,6 +14,11 @@
           revision="oreo-mr1"
           fetch="https://github.com/PixelExperience/" />
 
+  <!-- pixel devices remote -->
+  <remote name="pixel-devices"
+          revision="oreo-mr1"
+          fetch="https://github.com/PixelExperience-Devices/" />
+
   <!-- pixel remote in gitlab -->
   <remote name="pixel-gitlab"
           revision="oreo-mr1"
