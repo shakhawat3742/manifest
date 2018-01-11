@@ -45,6 +45,9 @@
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
 
   <!-- external -->
+  <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" remote="github" revision="staging/lineage-15.1" />
+  <project path="external/ant-wireless/ant_service" name="LineageOS/android_external_ant-wireless_ant_service" remote="github" revision="staging/lineage-15.1" />
+  <project path="external/ant-wireless/antradio-library" name="LineageOS/android_external_ant-wireless_antradio-library" remote="github" revision="staging/lineage-15.1" />
   <project path="external/brctl" name="quic/la/platform/external/brctl" remote="caf" revision="LA.AF.1.2.1_rb1.27" />
   <project path="external/ebtables" name="LineageOS/android_external_ebtables" remote="github" revision="lineage-15.0" />
   <project path="external/fuse" name="LineageOS/android_external_fuse" remote="github" revision="lineage-15.0" />
