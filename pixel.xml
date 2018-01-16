@@ -80,8 +80,8 @@
   <project path="system/libhidl" name="system_libhidl" remote="pixel" />
 
   <!-- sepolicy -->
-  <project path="device/qcom/common" name="device_qcom_common" remote="pixel" />
-  <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="pixel" />
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" revision="staging/lineage-15.1" />
+  <project path="device/qcom/sepolicy" name="LineageOS/android_device_qcom_sepolicy" remote="github" revision="staging/lineage-15.1" />
 
   <!-- frameworks -->
   <project path="frameworks/base" name="frameworks_base" remote="pixel" />
@@ -108,7 +108,7 @@
   <project path="hardware/qcom/audio-caf/msm8998" name="LineageOS/android_hardware_qcom_audio" remote="github" revision="staging/lineage-15.1-caf-8998" />
   <project path="hardware/qcom/bootctrl" name="hardware_qcom_bootctrl" remote="pixel"  />
   <project path="hardware/qcom/bt" name="hardware_qcom_bt" remote="pixel"  />
-  <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt-caf" remote="pixel" />
+  <project path="hardware/qcom/bt-caf" name="LineageOS/android_hardware_qcom_bt" remote="github" revision="staging/lineage-15.1-caf" />
   <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pixel"  />
   <project path="hardware/qcom/display-caf/apq8084" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-15.0-caf-8916" />
@@ -131,15 +131,14 @@
   <project path="hardware/qcom/media-caf/msm8994" name="LineageOS/android_hardware_qcom_media" remote="github" revision="staging/lineage-15.1-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="LineageOS/android_hardware_qcom_media" remote="github" revision="staging/lineage-15.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="LineageOS/android_hardware_qcom_media" remote="github" revision="staging/lineage-15.1-caf-8998" />
-  <project path="hardware/qcom/power" name="hardware_qcom_power" remote="pixel" />
+  <project path="hardware/qcom/power" name="LineageOS/android_hardware_qcom_power" remote="github" revision="staging/lineage-15.1" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pixel"  />
-  <project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan-caf" remote="pixel" />
+  <project path="hardware/qcom/wlan-caf" name="LineageOS/android_hardware_qcom_wlan" remote="github" revision="staging/lineage-15.1-caf" />
   <project path="hardware/ril" name="hardware_ril" remote="pixel" />
   <project path="hardware/ril-caf" name="hardware_ril-caf" remote="pixel" />
   <project path="hardware/custom-interfaces" name="hardware_custom-interfaces" remote="pixel" />
 
   <!-- packages -->
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="pixel" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
