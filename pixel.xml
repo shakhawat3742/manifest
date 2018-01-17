@@ -154,6 +154,7 @@
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel" />
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="lineage-15.0" />
   <project path="packages/resources/MotoActions" name="packages_resources_MotoActions" remote="pixel" />
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
 
   <!-- vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
