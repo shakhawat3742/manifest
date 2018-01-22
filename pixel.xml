@@ -156,6 +156,9 @@
   <project path="packages/resources/MotoActions" name="packages_resources_MotoActions" remote="pixel" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="pixel" />
 
+  <!-- prebuilts -->
+  <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linaro-7.2" name="prebuilts_gcc_linux-x86_aarch64_aarch64-linaro-7.2" remote="pixel-gitlab" revision="master" clone-depth="1" />
+
   <!-- vendor -->
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/extras" name="vendor_extras" remote="pixel" />
