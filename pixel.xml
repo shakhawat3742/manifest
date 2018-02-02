@@ -139,6 +139,7 @@
   <project path="hardware/custom-interfaces" name="hardware_custom-interfaces" remote="pixel" />
 
   <!-- packages -->
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
   <project path="packages/apps/CellBroadcastReceiver" name="packages_apps_CellBroadcastReceiver" remote="pixel" />
   <project path="packages/apps/EmergencyInfo" name="packages_apps_EmergencyInfo" remote="pixel" />
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pixel" />
